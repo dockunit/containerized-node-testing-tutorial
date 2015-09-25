@@ -1,8 +1,8 @@
 'use strict';
 
-let colors = require('colors');
-let Time = require('./time');
+var colors = require('colors');
+var Time = require('./time');
 
-let time = new Time();
+var time = new Time();
 
 console.log(time.getPretty().green);
